@@ -4,7 +4,7 @@
 
   async function fetchdataStef() {
     try {
-        const response = await fetch("https://kitch41.github.io/Webapps-From-Scratch-23-24/info.json");
+        const response = await fetch("https://kitch41.github.io/Webapps-From-Scratch-23-24/json/info.json");
 
         if (!response.ok) {
             throw new Error("Failed to get data");
