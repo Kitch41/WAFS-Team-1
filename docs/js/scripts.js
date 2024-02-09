@@ -73,3 +73,4 @@ async function fetchdataMitchel() {
 
 
     fetchdataStef()
+    fetchdataStephan()
