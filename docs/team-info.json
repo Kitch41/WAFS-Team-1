@@ -1,0 +1,79 @@
+{
+    "Stef" : {
+        "name" : "Stef Keuken",
+        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "city" : "Volendam",
+        "description" : "Fanatieke gamer met te weinig tijd.",
+        "favoritePets" : [
+            "Cat","Dog"
+        ],
+        "hobbys" : [
+            {
+                "hobby1" : "Gaming" 
+            },
+            {
+                "hobby2" : "Anime" 
+            }
+        ]
+        },
+
+
+    "Stephan" : {
+        "name" : "Stef Keuken",
+        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "city" : "Volendam",
+        "description" : "Fanatieke Gamer met een ",
+        "favoritePets" : [
+            "Cat","Dog"
+        ],
+        "hobbys" : [
+            {
+                "hobby1" : "Gaming" 
+            },
+            {
+                "hobby2" : "Anime" 
+            }
+        ]
+    },
+
+
+    "Nicole" : {
+        "name" : "Stef Keuken",
+        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "city" : "Volendam",
+        "description" : "Geweldig persoon",
+        "favoritePets" : [
+            "Cat","Dog"
+        ],
+        "hobbys" : [
+            {
+                "hobby1" : "Gaming" 
+            },
+            {
+                "hobby2" : "Anime" 
+            }
+        ]
+    },
+
+
+    "Mitchel" : {
+        "name" : "Stef Keuken",
+        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "city" : "Volendam",
+        "description" : "Geweldig persoon",
+        "favoritePets" : [
+            "Cat","Dog"
+        ],
+        "hobbys" : [
+            {
+                "hobby1" : "Gaming" 
+            },
+            {
+                "hobby2" : "Anime" 
+            }
+        ]
+    }
+}
+
+
+
