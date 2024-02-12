@@ -4,7 +4,7 @@
 
 async function fetchdataStef() {
     try {
-        const response = await fetch("https://kitch41.github.io/Webapps-From-Scratch-23-24/json/info.json");
+        const response = await fetch("https://kitch41.github.io/Webapps-From-Scratch-23-24/info.json");
 
         if (!response.ok) {
             throw new Error("Failed to get data from stef");
@@ -24,7 +24,7 @@ fetchdataStef();
 
 async function fetchdataNicole() {
     try {
-        const response = await fetch("https://kaboutergeitje.github.io/web-app-from-scratch-2324/json/info.json");
+        const response = await fetch("https://kaboutergeitje.github.io/web-app-from-scratch-2324/info.json");
 
         if (!response.ok) {
             throw new Error("Failed to get data from nicole");
@@ -44,7 +44,7 @@ fetchdataNicole();
 
 async function fetchdataStephan() {
     try {
-        const response = await fetch("https://spacejump3.github.io/web-app-from-scratch-2324/json/info.json");
+        const response = await fetch("https://spacejump3.github.io/web-app-from-scratch-2324/info.json");
 
         if (!response.ok) {
             throw new Error("Failed to get data for stephan");
@@ -62,7 +62,7 @@ async function fetchdataStephan() {
 
 async function fetchdataMitchel() {
     try {
-        const response = await fetch("https://mitchel-ds.github.io/web-app-from-scratch-2324/app.json");
+        const response = await fetch("https://mitchel-ds.github.io/web-app-from-scratch-2324/info.json");
 
         if (!response.ok) {
             throw new Error("Failed to get data for mitchel");
