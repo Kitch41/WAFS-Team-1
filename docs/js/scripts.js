@@ -7,13 +7,13 @@ async function fetchdataStef() {
         const response = await fetch("https://kitch41.github.io/Webapps-From-Scratch-23-24/json/info.json");
 
         if (!response.ok) {
-            throw new Error("Failed to get data");
+            throw new Error("Failed to get data from stef");
         }
 
-        const stef = await response.json();
+        const data = await response.json();
 
 
-        return stef;
+        return data;
 
     } catch (error) {
         console.error("Error fetching data:", error);
@@ -22,17 +22,25 @@ async function fetchdataStef() {
 }
 fetchdataStef();
 
-async function fetchDataNicole() {
+async function fetchdataNicole() {
+    try {
+        const response = await fetch("https://kaboutergeitje.github.io/web-app-from-scratch-2324/json/info.json");
 
-    const response = await fetch("link");
-    const data = await response.json();
+        if (!response.ok) {
+            throw new Error("Failed to get data from nicole");
+        }
 
-    console.log(data);
+        const data = await response.json();
 
-    return data;
 
+        return data;
+
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        throw error; 
+    }
 }
-// fetchDataNicole();
+fetchdataNicole();
 
 async function fetchdataStephan() {
     try {
@@ -51,35 +59,45 @@ async function fetchdataStephan() {
         throw error; 
     }
 }
-// fetchdataStephan()
 
 async function fetchdataMitchel() {
+    try {
+        const response = await fetch("https://mitchel-ds.github.io/web-app-from-scratch-2324/app.json");
 
-    const response = await fetch("https://mitchel-ds.github.io/web-app-from-scratch-2324/docs/app.json");
-    const data = await response.json();
+        if (!response.ok) {
+            throw new Error("Failed to get data for mitchel");
+        }
 
-    console.log(data);
+        const data = await response.json();
 
-    return data;
+        return data;
 
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        throw error; 
+    }
 }
 
-// fetchdataStephan()
-  
+fetchdataMitchel();
+
+
   
 async function getData() {
 
     
 
-    const stef = await fetchdataStef()
-    const stephan = await fetchdataStephan()
-
+    const stef = await fetchdataStef();
+    const stephan = await fetchdataStephan();
+    const mitchel = await fetchdataMitchel();
+    const nicole = await fetchdataNicole();
     
     
     const mdata = {
         stef,
-        stephan
-    } 
+        stephan,
+        mitchel,
+        nicole
+    } ;
     
     console.log(mdata);
 }
