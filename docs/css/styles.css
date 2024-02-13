@@ -52,7 +52,7 @@ html {
 
 @keyframes idle {
     0% {
-        transform: scale(1, 0.9);
+        transform: scale(1, 0.95);
     }
 
     100% {
@@ -60,9 +60,13 @@ html {
     }
 }
 
+.wave {
+    animation: wave 1s alternate infinite;
+}
+
 .stickman {
-    animation: idle 1s alternate infinite;
     transform-origin: center bottom;
+    animation: idle 1s alternate infinite;
 
     .head {
         margin: 0;
@@ -73,7 +77,14 @@ html {
         background-color: black;
         border-radius: 100%;
 
+        top: 52px;
+
         z-index: 1;
+    }
+
+    #stefHead {
+        background-position: left -78px top -45px;
+        background-size: 200px;
     }
 
     .torso {
@@ -98,7 +109,7 @@ html {
         transform: rotate(25deg);
         transform-origin: top;
 
-        left: 60px;
+        left: 65px;
         top: 130px;
 
         background-color: black;
@@ -113,6 +124,7 @@ html {
         transform-origin: top;
         transform: rotate(-25deg);
         /* animation: wave 1s alternate infinite; */
+        /* transition: 1s ease; */
 
         left: 70px;
         top: 130px;
