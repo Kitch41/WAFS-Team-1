@@ -1,77 +1,57 @@
 {
-    "Stef" : {
-        "name" : "Stef Keuken",
-        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+    "Stef" :{
+        "github" : "https://github.com/Kitch41/Webapps-From-Scratch-23-24",
+        "firstName" : "Stef",
+        "lastName" : "Keuken",
+        "avatar_url" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "age" : 21,
         "city" : "Volendam",
-        "description" : "Fanatieke gamer met te weinig tijd.",
-        "favoritePets" : [
-            "Cat","Dog"
-        ],
-        "hobbys" : [
-            {
-                "hobby1" : "Gaming" 
-            },
-            {
-                "hobby2" : "Anime" 
-            }
-        ]
-        },
+        "hobbies" : ["Gaming", "Anime", "Music", "Coding"],
+        "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
+        "bio" : "Guy with too much time on his hands",
+        "favouriteAnimal" : "(optioneel)"
+    },
 
 
     "Stephan" : {
-        "name" : "Stef Keuken",
-        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "github" : "https://github.com/Kitch41/Webapps-From-Scratch-23-24",
+        "firstName" : "Stef",
+        "lastName" : "Keuken",
+        "avatar_url" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "age" : 21,
         "city" : "Volendam",
-        "description" : "Fanatieke Gamer met een ",
-        "favoritePets" : [
-            "Cat","Dog"
-        ],
-        "hobbys" : [
-            {
-                "hobby1" : "Gaming" 
-            },
-            {
-                "hobby2" : "Anime" 
-            }
-        ]
+        "hobbies" : ["Gaming", "Anime", "Music", "Coding"],
+        "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
+        "bio" : "Guy with too much time on his hands",
+        "favouriteAnimal" : "(optioneel)"
     },
 
 
     "Nicole" : {
-        "name" : "Stef Keuken",
-        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "github" : "https://github.com/Kitch41/Webapps-From-Scratch-23-24",
+        "firstName" : "Stef",
+        "lastName" : "Keuken",
+        "avatar_url" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "age" : 21,
         "city" : "Volendam",
-        "description" : "Geweldig persoon",
-        "favoritePets" : [
-            "Cat","Dog"
-        ],
-        "hobbys" : [
-            {
-                "hobby1" : "Gaming" 
-            },
-            {
-                "hobby2" : "Anime" 
-            }
-        ]
+        "hobbies" : ["Gaming", "Anime", "Music", "Coding"],
+        "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
+        "bio" : "Guy with too much time on his hands",
+        "favouriteAnimal" : "(optioneel)"
     },
 
 
     "Mitchel" : {
-        "name" : "Stef Keuken",
-        "avatar" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "github" : "https://github.com/Kitch41/Webapps-From-Scratch-23-24",
+        "firstName" : "Stef",
+        "lastName" : "Keuken",
+        "avatar_url" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/images/Helicopter-Haar.jpg",
+        "age" : 21,
         "city" : "Volendam",
-        "description" : "Geweldig persoon",
-        "favoritePets" : [
-            "Cat","Dog"
-        ],
-        "hobbys" : [
-            {
-                "hobby1" : "Gaming" 
-            },
-            {
-                "hobby2" : "Anime" 
-            }
-        ]
+        "hobbies" : ["Gaming", "Anime", "Music", "Coding"],
+        "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
+        "bio" : "Guy with too much time on his hands",
+        "favouriteAnimal" : "(optioneel)"
     }
 }
 
