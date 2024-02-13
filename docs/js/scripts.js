@@ -98,8 +98,40 @@ async function getData() {
         mitchel,
         nicole
     } ;
+
+    const stefHead = document.getElementById("stefHead")
+    const stephanHead = document.getElementById("stephanHead")
+    const nicoleHead = document.getElementById("nicoleHead")
+    const mitchelHead = document.getElementById("mitchelHead")
+
+    stefHead.style.backgroundImage=`url(${mdata.stef.avatar_url})`
+    stephanHead.style.backgroundImage=`url(${mdata.stephan.avatar_url})`
+    nicoleHead.style.backgroundImage=`url(${mdata.nicole.avatar_url})`
+    mitchelHead.style.backgroundImage=`url(${mdata.mitchel.avatar_url})`
     
     console.log(mdata);
+
+    const memberSection = document.querySelectorAll('.memberSection');
+
+    let membersArray = Array.from(memberSection);
+    
+    membersArray.forEach((section, index) => {
+        section.addEventListener('mouseover', function startWave() {
+            section.querySelector('.rightArm').classList.add('wave');
+        });
+
+        section.addEventListener('mouseout', function startWave() {
+            section.querySelector('.rightArm').classList.remove('wave');
+        });
+    });
+
+    // memberSection.addEventListener('mouseover', function startWave() {
+    //     document.querySelector('.rightArm').classList.add('wave')
+    // })
+
+    // memberSection.addEventListener('mouseout', function startWave() {
+    //     document.querySelector('.rightArm').classList.remove('wave')
+    // })
 }
 
 getData();
